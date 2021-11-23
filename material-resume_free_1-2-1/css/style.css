@@ -1,0 +1,22 @@
+body{
+    background-color: 	#87CEFA;
+}
+
+h1{
+    text-align: center;
+    padding: 2px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: sans-serif;
+    padding-left: 3px;
+    
+}
+
+.para{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}

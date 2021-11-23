@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"
+    </title class="title"></title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="css/style.css"
+
+</head>   
+<body>
+
+    <div id="app-calc">
+
+
+        <h1>Trabalho de Introdução a tecnologia e Programação</h1>
+        <h2 class="para"> Pedro quer colocar o seu dinheiro em uma loja de cosméticos, mas, no primeiro mês terá um juros de 50 reais, e apenas a partir dos próximo mês, que Pedro vai começar a lucrar.</h2>
+       <p> Capital inicial: {{n1}}</p> 
+       <p> Capital no primeiro mês: {{n1-50}}</p> 
+
+
+
+       <p>Capital no segundo mês:{{n1+100}}</p>
+       <p>Capital no terceiro mês :{{ n1+150}}</p>
+       <p>Capital durante 1 ano: {{n1+2500}}</p>
+
+
+       
+       <input v-model.number="n1" type="number">
+    </div>
+
+    <script>
+          var app7 = new Vue ({
+          el: '#app-calc',
+          data: {
+              n1: 4,
+              n2: 5, 
+          }
+        })
+        
+
+  </Script>
+</body>
+</html>
